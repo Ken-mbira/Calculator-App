@@ -21,6 +21,7 @@ body {
     position: absolute;
     bottom: 5rem;
     left: 0;
+    right: 0;
 }
 
 .loading-page-2 {
@@ -42,6 +43,7 @@ body {
     position: absolute;
     bottom: 5rem;
     left: 0;
+    right: 0;
 }
 
 .loading-page-3 {
@@ -62,5 +64,25 @@ body {
     bottom: 0;
     position: absolute;
     bottom: 5rem;
+    left: 0;
+    right: 0;
+}
+
+.loading-page-4 {
+    background-color: #393535;
+    height: 100vh;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    position: relative;
+}
+
+.loading-page-4 p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    color: #F20C0C;
+    bottom: 0;
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
     left: 0;
 }
