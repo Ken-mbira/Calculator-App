@@ -14,6 +14,28 @@ body {
 }
 
 .loading-page-1 p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    color: #F20C0C;
+    bottom: 0;
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}
+
+.loading-page-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.9)), url("/images/pics/pic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    position: relative;
+}
+
+.loading-page-2 p {
+    font-family: 'Rock Salt', cursive;
     font-size: 4rem;
     color: #F20C0C;
     bottom: 0;
