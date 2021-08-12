@@ -136,3 +136,9 @@ button {
     padding-left: 5rem;
     justify-content: center;
 }
+
+#equal-sign {
+    width: 8rem;
+    justify-self: center;
+    background-color: #16F22C;
+}
