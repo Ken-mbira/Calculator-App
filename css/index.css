@@ -93,8 +93,6 @@ body {
 
 .calc-display {
     background-color: black;
-    justify-content: center;
-    width: fit-content;
 }
 
 .calc-display input {
@@ -111,19 +109,30 @@ body {
 }
 
 .calc-page-contents {
-    width: 40rem;
+    width: 30rem;
     margin: auto;
 }
 
-.numbers button {
+button {
     width: 4rem;
     height: 4rem;
+    border: none;
+    background-color: #C4C4C4;
 }
 
 .numbers {
     display: grid;
     grid-template-columns: 4.5rem 4.5rem 4.5rem;
     column-gap: 40px;
-    row-gap: 20px;
+    row-gap: 40px;
     padding: 10px;
+}
+
+.operations {
+    display: grid;
+    grid-template-columns: 4.5rem;
+    row-gap: 40px;
+    padding: 10px;
+    padding-left: 5rem;
+    justify-content: center;
 }
