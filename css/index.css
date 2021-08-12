@@ -86,3 +86,31 @@ body {
     right: 0;
     left: 0;
 }
+
+.calc-page {
+    background-color: white;
+}
+
+.calc-display {
+    background-color: black;
+    justify-content: center;
+    width: fit-content;
+}
+
+.calc-display input {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    text-align: right;
+}
+
+.calc-display .current {
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.calc-page-contents {
+    width: 45rem;
+    margin: auto;
+}
