@@ -111,6 +111,19 @@ body {
 }
 
 .calc-page-contents {
-    width: 45rem;
+    width: 40rem;
     margin: auto;
+}
+
+.numbers button {
+    width: 4rem;
+    height: 4rem;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 4.5rem 4.5rem 4.5rem;
+    column-gap: 40px;
+    row-gap: 20px;
+    padding: 10px;
 }
