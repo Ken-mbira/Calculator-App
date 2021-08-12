@@ -93,17 +93,20 @@ body {
 
 .calc-display {
     background-color: black;
+    color: white;
+    text-align: right;
 }
 
-.calc-display input {
+
+/* .calc-display input {
     background-color: transparent;
     outline: none;
     color: white;
     border: none;
     text-align: right;
-}
+} */
 
-.calc-display .current {
+.calc-display #current {
     height: 4rem;
     font-size: 2rem;
 }

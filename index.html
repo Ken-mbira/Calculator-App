@@ -16,14 +16,14 @@
     <div class="calc-page-contents">
         <div class="row calc-display">
             <div class="previous row">
-                <input type="text">
+                <div id="previous"></div>
             </div>
             <div class="current row">
-                <input type="text" placeholder="Input number here:">
+                <div id="current"></div>
             </div>
         </div>
         <div class="row calc-operations">
-            <div class="col-6 numbers">
+            <div class="col numbers">
                 <button class="numbers-buttons" id="number1" value="1">1</button>
                 <button class="numbers-buttons" id="number2" value="2">2</button>
                 <button class="numbers-buttons" id="number3" value="3">3</button>
@@ -37,11 +37,11 @@
                 <button class="numbers-buttons" id="number0" value="0">0</button>
                 <button class="numbers-buttons" id="equal-sign" value="">=</button>
             </div>
-            <div class="col-6 operations">
-                <button class="operations-buttons" id="">+</button>
-                <button class="operations-buttons" id="">-</button>
-                <button class="operations-buttons" id="">x</button>
-                <button class="operations-buttons" id="">÷</button>
+            <div class="col operations">
+                <button class="operations-buttons" id="plus" name="operation" value="+">+</button>
+                <button class="operations-buttons" id="minus" name="operation" value="-">-</button>
+                <button class="operations-buttons" id="multiplication" name="operation" value="*">x</button>
+                <button class="operations-buttons" id="division" name="operation" value="/">÷</button>
             </div>
         </div>
     </div>
